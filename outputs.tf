@@ -14,3 +14,10 @@ output "database_subnet_ids" {
     value = local.database_subnet_ids
 }
 
+# output "ami_id" {
+#     value = data.aws_ami.devops_ami.id
+# }
+
+# output "ips" {
+#     value = local.ips
+# }
